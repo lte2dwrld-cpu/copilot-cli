@@ -1,0 +1,158 @@
+ (FirstSeat / EarlyVault)
+
+🗂️ 1. Repository Name
+
+
+
+* firstseat-app
+
+
+👉 Best pick: firstseat-app
+
+📁 2. Project Structure (IMPORTANT)
+
+If you’re building with React Native (recommended) or Flutter, here’s a clean structure:
+
+📱 Frontend (App)
+/app
+  /screens
+    SplashScreen
+    AuthScreen
+    HomeScreen
+    ProjectDetailsScreen
+    PaymentScreen
+    SuccessScreen
+    MySpotsScreen
+    ProfileScreen
+
+  /components
+    ProjectCard
+    Button
+    Header
+    InputField
+
+  /navigation
+    AppNavigator.js
+
+  /assets
+    images
+    icons
+    fonts
+
+⚙️ Backend (Firebase or Node.js)
+
+Option A (EASIEST): Firebase backend
+/backend (or firebase config only)
+  /services
+    auth.js
+    projects.js
+    payments.js
+    notifications.js
+
+🗄️ Data Layer (important)
+
+/models
+  User.js
+  Project.js
+  Commitment.js
+  Reward.js
+
+config
+
+/config
+  firebase.js
+  stripe.js
+  constants.js
+
+🧠 3. GitHub README (you MUST include this)
+
+Here’s your starter README:
+
+# FirstSeat 🚀
+
+FirstSeat is an early-access marketplace where users can reserve spots in upcoming projects, apps, and communities before they launch.
+
+## 💡 What it does
+- Discover upcoming digital projects
+- Reserve early access spots
+- Pay small entry fees
+- Unlock rewards and founder perks
+
+## 🧱 Tech Stack
+- React Native (or Flutter)
+- Firebase (Auth + Database)
+- Stripe (Payments)
+
+## 📱 Core Features
+- Early access listings
+- Project reservation system
+- Secure payments
+- User “My Spots” dashboard
+- Creator project posting
+
+## 🚀 Status
+MVP in development
+
+🔥 4. GitHub Workflow (how you actually build it)
+
+Don’t just dump code — build in this order:
+Phase 1 (Core App)
+
+* Auth system
+* Home feed
+* Project list
+* Project details
+
+Phase 2 (Money flow)
+
+* Payment integration (Stripe)
+* Commitments table
+* Success screen
+
+Phase 3 (Retention)
+
+* My Spots screen
+* Notifications
+* Rewards system
+
+Phase 4 (Creators)
+
+* Create project screen
+* Admin dashboard
+
+⸻
+
+⚡ 5. Important GitHub Tips (most beginners miss this)
+
+✔ Use branches:main
+dev
+feature/auth
+feature/payments
+feature/home-ui
+
+
+    COMMIT STYLE
+
+feat: add project detail screen
+fix: payment bug in checkout
+ui: redesign home feed cards
+
+💰 6. Optional but powerful upgrade
+
+If you want your GitHub repo to look like a real startup:
+
+Add:
+
+* /docs (screens, diagrams, UI flow)
+* /roadmap.md
+* /api-spec.md
+
+⸻
+
+🚀 Reality check (important)
+
+If you set this up properly, your GitHub repo becomes:
+
+“Investor-ready MVP foundation”
+
+Even if you don’t raise money, it forces you to build like a real product.
